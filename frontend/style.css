@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8e0d1; /* Light peach background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px; /* Adjusted width for the form */
+    margin: 50px auto; /* Center the form with margin */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #4caf50;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+input[type="datetime-local"]:focus {
+    border-color: #4caf50; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6f61; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #e65c50; /* Darker shade on hover */
+}
+
+#reservation-message {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(13, 13, 13); /* Error message color */
+}
+
+.table {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    background-color: #f0f0f0; /* Light gray for table list */
+}
+
+.reservation {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #f0fff0; /* Light green for reservation list */
+}
+
+.reservation-info {
+    margin-bottom: 10px;
+}
+
+.reservation-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-button,
+.cancel-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.update-button {
+    background-color: #2196F3; /* Blue for update */
+    color: white;
+}
+
+.update-button:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+}
+
+.cancel-button {
+    background-color: #f44336; /* Red for cancel */
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
